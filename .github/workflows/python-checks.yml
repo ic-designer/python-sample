@@ -29,4 +29,4 @@ jobs:
         python -Im pip install nox
     - name: Run Nox Checks
       run: |
-        python -Im nox --python ${{ matrix.python-version }} -t check
+        python -Im nox -t check
